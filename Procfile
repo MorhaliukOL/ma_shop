@@ -1,0 +1,1 @@
+web: flask db upgrade; flask translate compile; gunicorn ma_shop:app; bundle exec rails server -p $PORT
