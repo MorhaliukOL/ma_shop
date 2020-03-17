@@ -18,6 +18,7 @@ class Config(object):
     PRODUCT_NAME_MAX_LENGTH = 1000
     SMTP_SERVER = "localhost"
     ADMIN_EMAIL = "admin@ma_shop.org"
+    LOG_TO_STDOUT = env.str('LOG_TO_STDOUT')
 
 
 """App config variables"""

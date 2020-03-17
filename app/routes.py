@@ -62,7 +62,7 @@ def show_product(product_id):
     comments_list = db.session.query(Comments).join(Users).\
         add_columns(Users.first_name, Comments.comment_date, Comments.comment_body).\
         filter(Comments.id_product==product_id).all()
-    return render_template("product_description.html", product=product, comments_list=comments_list,
+    return render_template("product_description.html", product=product, #comments_list=comments_list,
                            avg_mark=avg_mark, form=form, number_of_marks=number_of_marks,
                            product_category=product_category, form_c=form_c)
 
