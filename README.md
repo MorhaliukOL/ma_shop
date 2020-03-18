@@ -1,5 +1,4 @@
-# ma_shop
-### Online store
+# ma_shop (### Online store)
 
 # Deployed on Heroku Service
 https://ma-shop.herokuapp.com/
